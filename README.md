@@ -1,4 +1,4 @@
 birt-jdbc-emitter
 =================
 
-A BIRT Emitter to export the output of a BIRT Report table to a RDBMS table
+A BIRT Emitter to export the output of any BIRT Report tables to a RDBMS table
