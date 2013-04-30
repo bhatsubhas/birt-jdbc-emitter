@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BIRT JDBC Emitter
+Bundle-SymbolicName: org.eclipse.birt.report.engine.emitter.jdbc;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: org.eclipse.birt.report.engine.emitter.jdbc.JdbcEmitterPlugin
+Bundle-Vendor: Subhas Bhat
+Require-Bundle: org.eclipse.birt.report.engine;bundle-version="3.7.2"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ lib/sqlite-jdbc-3.7.2.jar,
+ lib/mysql-connector-java-5.1.24-bin.jar,
+ lib/postgresql-9.2-1002.jdbc4.jar
